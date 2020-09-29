@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<!-- head 부분에 css 추가 link href,rel,type -->
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<!-- body 부분에 JavaScript 추가 -->
+
+<body>
+
+    <div class="js-clock">
+        <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+        <input type="text" placeholder=" What Is Your Name? ">
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <!-- 앞에 greeting은 class 뒤에 greeting은 css-->
+
+    <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do list">
+    </form>
+
+    <ul class="js-toDoList">
+    </ul>
+
+    <div class="js-weather"></div>
+
+    <!-- JS 파일을 HTML과 연결-->
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
